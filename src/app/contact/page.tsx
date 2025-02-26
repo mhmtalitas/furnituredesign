@@ -26,25 +26,27 @@ export default function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setSubmitSuccess(false);
+    setSubmitError(false);
     
-    // Burada normalde bir API endpointe form verileri gönderilir
-    // Şimdilik sadece simüle ediyoruz
+    // API çağrısını simüle ediyoruz
     setTimeout(() => {
-      setIsSubmitting(false);
-      setSubmitSuccess(true);
-      // Formu sıfırla
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        subject: "",
-        message: ""
-      });
-      
-      // 5 saniye sonra başarı mesajını kaldır
-      setTimeout(() => {
-        setSubmitSuccess(false);
-      }, 5000);
+      try {
+        // Başarılı durumu simüle ediyoruz
+        setSubmitSuccess(true);
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          subject: "",
+          message: ""
+        });
+      } catch (error) {
+        // Hata durumunu yönetiyoruz
+        setSubmitError(true);
+      } finally {
+        setIsSubmitting(false);
+      }
     }, 1500);
   };
   

@@ -18,7 +18,7 @@ const team = [
     name: "Mehmet Demir",
     role: "Üretim Müdürü",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2070&auto=format&fit=crop",
-    bio: "20 yılı aşkın ahşap işçiliği deneyimine sahip olan Mehmet, üretim süreçlerinin kusursuz işlemesini sağlıyor. Geleneksel el işçiliği tekniklerini modern teknolojilerle birleştirme konusundaki uzmanlığı, her mobilyanın en yüksek kalite standartlarında üretilmesini garantiliyor."
+    bio: "20 yılı aşkın ahşap işçiliği deneyimine sahip olan Mehmet, üretim süreçlerinin kusursuz işlemesini sağlıyor. Geleneksel el işçiliği tekniklerini modern teknolojilerle birleştirerek, her mobilyanın en yüksek kalite standartlarında üretilmesini garantiliyor."
   },
   {
     name: "Elif Öztürk",
