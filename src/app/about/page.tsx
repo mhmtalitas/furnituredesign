@@ -264,7 +264,7 @@ export default function About() {
           
           <div className="mt-12 text-gray-600 space-y-6">
             <p>
-              İstanbul'un kalbinde yer alan 500 metrekarelik modern atölyemiz, en son teknoloji ile donatılmıştır. Burada, geleneksel el işçiliği ile modern üretim tekniklerini bir araya getirerek, her mobilyayı özenle üretiyoruz.
+              İstanbul&apos;un kalbinde yer alan 500 metrekarelik modern atölyemiz, en son teknoloji ile donatılmıştır. Burada, geleneksel el işçiliği ile modern üretim tekniklerini bir araya getirerek, her mobilyayı özenle üretiyoruz.
             </p>
             <p>
               Atölyemizde ahşap işleme, metal işleme, döşeme ve boyama gibi tüm üretim süreçleri kendi bünyemizde gerçekleştiriliyor. Bu sayede, her aşamada kalite kontrolü sağlıyor ve müşterilerimizin beklentilerine tam olarak karşılık veren ürünler ortaya çıkarıyoruz.
