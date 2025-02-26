@@ -70,7 +70,7 @@ export default function About() {
             </div>
             <div className="md:w-1/2 space-y-6 text-gray-600">
               <p>
-                Mobilya Tasarım, 2010 yılında Ahmet Yılmaz tarafından, kişiye özel, kaliteli ve uzun ömürlü mobilyalar üretme vizyonuyla kuruldu. Küçük bir atölyede başlayan yolculuğumuz, bugün geniş bir üretim tesisine ve İstanbul'un merkezinde bir showroom'a dönüştü.
+                Mobilya Tasarım, 2010 yılında Ahmet Yılmaz tarafından, kişiye özel, kaliteli ve uzun ömürlü mobilyalar üretme vizyonuyla kuruldu. Küçük bir atölyede başlayan yolculuğumuz, bugün geniş bir üretim tesisine ve İstanbul&apos;un merkezinde bir showroom&apos;a dönüştü.
               </p>
               <p>
                 İlk günden bu yana, her mobilyayı bir sanat eseri olarak görüyor ve en ince detayına kadar özenle tasarlıyoruz. Geleneksel el işçiliği tekniklerini modern teknoloji ile birleştirerek, hem estetik hem de dayanıklı mobilyalar üretiyoruz.
@@ -280,7 +280,7 @@ export default function About() {
             Bizimle Tanışmak İster Misiniz?
           </h2>
           <p className="text-gray-300 text-lg mb-8 max-w-3xl mx-auto">
-            Showroom'umuzu ziyaret edin veya online bir görüşme ayarlayın. Size özel mobilya çözümlerimizi keşfedin.
+            Showroom&apos;umuzu ziyaret edin veya online bir görüşme ayarlayın. Size özel mobilya çözümlerimizi keşfedin.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

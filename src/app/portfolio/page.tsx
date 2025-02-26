@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 
 const projects = [
@@ -77,8 +77,10 @@ export default function Portfolio() {
   const [isTransitioning, setIsTransitioning] = useState<boolean>(false);
   const [opacity, setOpacity] = useState<number>(1);
   
-  // Projeleri kategorilerine göre gruplandır
-  const categories = ["Tümü", ...new Set(projects.map(project => project.category))];
+  // Projeleri kategorilerine göre gruplandır - useMemo ile optimize edildi
+  const categories = useMemo(() => {
+    return ["Tümü", ...new Set(projects.map(project => project.category))];
+  }, []);
   
   // URL'den gelen kategoriyi kontrol et
   useEffect(() => {
