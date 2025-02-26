@@ -80,7 +80,7 @@ export default function Portfolio() {
   // Projeleri kategorilerine göre gruplandır - useMemo ile optimize edildi
   const categories = useMemo(() => {
     return ["Tümü", ...new Set(projects.map(project => project.category))];
-  }, []);
+  }, [projects]);
   
   // URL'den gelen kategoriyi kontrol et
   useEffect(() => {
