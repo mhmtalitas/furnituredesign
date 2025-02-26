@@ -293,37 +293,6 @@ export default function Contact() {
           <p className="text-lg text-gray-900">Burada Google Maps veya başka bir harita servisi entegre edilebilir</p>
         </div>
       </div>
-      
-      {/* Showroom Görselleri */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Showroom&apos;umuz</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="relative h-64 rounded-lg overflow-hidden">
-            <Image
-              src="https://images.unsplash.com/photo-1567016432779-094069958ea5?q=80&w=2070&auto=format&fit=crop"
-              alt="Showroom"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <div className="relative h-64 rounded-lg overflow-hidden">
-            <Image
-              src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?q=80&w=2070&auto=format&fit=crop"
-              alt="Showroom"
-              fill
-              className="object-cover"
-            />
-          </div>
-          <div className="relative h-64 rounded-lg overflow-hidden">
-            <Image
-              src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?q=80&w=1992&auto=format&fit=crop"
-              alt="Showroom"
-              fill
-              className="object-cover"
-            />
-          </div>
-        </div>
-      </div>
     </div>
   );
 } 

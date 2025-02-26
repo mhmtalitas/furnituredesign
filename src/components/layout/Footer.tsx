@@ -78,9 +78,17 @@ const Footer = () => {
         
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm">
-            &copy; {currentYear} Mobilya Tasarım. Tüm hakları saklıdır.
-          </p>
+          <div>
+            <p className="text-gray-400 text-sm">
+              &copy; {currentYear} Mobilya Tasarım. Tüm hakları saklıdır.
+            </p>
+            <p className="text-gray-400 text-sm mt-1">
+              <span>Geliştirici: </span>
+              <a href="https://www.mehmetalitas.com" target="_blank" rel="noopener noreferrer" className="text-amber-400 hover:text-amber-300">
+                Mehmet Ali Taş
+              </a>
+            </p>
+          </div>
           
           {/* Social Media */}
           <div className="flex space-x-4 mt-4 md:mt-0">
